@@ -51,7 +51,7 @@ export default class App extends Component {
    }
 
    if (won) {
-     Alert.alert('Parabéns!', 'Você venceu!')
+     Alert.alert('ParabÃ©ns!', 'VocÃª venceu!')
    }
 
    this.setState({board, lost, won })
@@ -63,7 +63,7 @@ export default class App extends Component {
    const won = wonGame(board)
 
    if (won) {
-     Alert.alert('Parabéns', 'Você venceu!')
+     Alert.alert('ParabÃ©ns', 'VocÃª venceu!')
    }
 
    this.setState({ board, won })
